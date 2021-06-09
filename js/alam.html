@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Document</title>
+</head>
+<script type="text/javascript">
+
+    function fn()
+    {
+        var a= document.querySelector("#nik").value;
+        var b=document.querySelector("#rath").value;
+    
+        if(a===b)
+        {
+            document.write("yes");
+
+        }
+        else
+        {
+            document.write("no");
+        }
+    }
+    
+    
+</script>
+<body>
+   <input id="nik" type="text" placeholder="username"><br>
+   <input id="rath" type="password" placeholder="password"><br>
+   <button type="reset"   onclick="fn()">click me!</button>
+   <br>
+
+</body>
+</html>
